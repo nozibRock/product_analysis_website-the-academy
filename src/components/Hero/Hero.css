@@ -1,0 +1,9 @@
+/* Hero component styles  */
+.top-banner {
+    background-image: url('../../../public/assests/top-banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    min-height: 65vh;
+    padding: 100px;
+}

@@ -39,21 +39,21 @@ const Footer = () => {
             <Col sm>
               <h4 className="mb-4 text-white text-capitalize">Useful Links</h4>
               <Nav className="list-unstyled d-flex flex-column justify-content-center align-items-start my-4 my-md-0">
-                <Nav.Link as={Link} to={"/about"} className="link">
+                <Link to={"/about"} className="link">
                   <i className="fas fa-angle-right"></i> About
-                </Nav.Link>
-                <Nav.Link as={Link} to={"/refund-policy"} className="link">
+                </Link>
+                <Link to={"/refund-policy"} className="link">
                   <i className="fas fa-angle-right"></i> Refund policy
-                </Nav.Link>
-                <Nav.Link as={Link} to={"/success"} className="link">
+                </Link>
+                <Link to={"/success"} className="link">
                   <i className="fas fa-angle-right"></i> Success
-                </Nav.Link>
-                <Nav.Link as={Link} to={"/terms-of-service"} className="link">
+                </Link>
+                <Link to={"/terms-of-service"} className="link">
                   <i className="fas fa-angle-right"></i> Terms and Conditions
-                </Nav.Link>
-                <Nav.Link as={Link} to={"/privacy"} className="link">
+                </Link>
+                <Link to={"/privacy"} className="link">
                   <i className="fas fa-angle-right"></i> Privacy Policy
-                </Nav.Link>
+                </Link>
               </Nav>
             </Col>
 
