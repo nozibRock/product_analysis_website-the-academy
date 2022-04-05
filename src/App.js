@@ -6,17 +6,20 @@ import Reviews from "./components/Reviews/Reviews";
 import Dashboard from "./components/Dashboard/Dashboard";
 import Blogs from "./components/Blogs/Blogs";
 import About from "./components/About/About";
-import Navbar from "./components/Navbar/Navbar";
 import RefundPolicy from "./components/RefundPolicy/RefundPolicy";
 import Terms from "./components/Terms/Terms";
 import Privacy from "./components/Privacy/Privacy";
 import Login from "./components/Login/Login";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <div>
       <BrowserRouter>
-        <Navbar />
+        <Header></Header>
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/home" element={<Home />} />
@@ -29,6 +32,7 @@ function App() {
           <Route exact path="/privacy" element={<Privacy />} />
           <Route exact path="/login" element={<Login />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );
