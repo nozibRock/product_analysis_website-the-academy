@@ -1,0 +1,30 @@
+.main_footer {
+    background-color: #1d304d;
+    color: #999999;
+}
+
+.footer-address li a {
+    color: #999999;
+}
+
+.footer-address li a:hover {
+    color: orange;
+}
+
+.link {
+    text-decoration: none;
+    color: #999999;
+}
+
+.link:hover {
+    color: orange;
+}
+
+.social li a i:hover {
+    color: orange;
+}
+
+.copyright {
+    background-color: #192941;
+    color: #999999;
+}
