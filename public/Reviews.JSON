@@ -1,0 +1,92 @@
+[
+    {
+        "id": "1",
+        "title": "The best",
+        "username": "GabiStancu",
+        "country": "United Kindgdom",
+        "review": "the headphones are gorgeous, they sound good, the application is good, but once a slight delay",
+        "star": 5, 
+        "date": "11 February 2021",
+        "model": "WH-1000XM4"
+    },
+    {
+        "id": "2",
+        "title": "Not as good as the reviews/hype",
+        "username": "mrsexytime ",
+        "country": "United Kindgdom",
+        "review": "I think this is a lazy product from Sony. The noise canceling is not any better than cheap ones I used before. Sure the audio is good but so are less expensive headphones. I bought these for the dual device support, it works but is so annoying. I get a delay for the second device and 1999 sounding prompt saying device 1, 2 connected 10-15 sec later. My bluetooth motorcycle communicator has had a dual device function for 10+ years and works much better. I guess I have a small head too because the fit on these is kind of loose, when looking down or pick something up they almost fall off. I just think for the price I expected so much more refinement. I use them all day every day but overall disappointed by the lack of customization in the app and overall quality of day-to-day experience. Please do better Sony!",
+        "star": 2, 
+        "date": "05 March 2021",
+        "model": "WH-1000XM4"
+    },
+    {
+        "id": "3",
+        "title": "Just stopped working one day. No support",
+        "username": "Kiki10310",
+        "country": "United Kindgdom",
+        "review": "Sound quality is good but questionable if worth the price. Should note that the headphones developed a slight buzz one day in one ear. Like static. Apparently this is common. When I tried to turn them on the next day they no longer worked",
+        "star": 1, 
+        "date": "04 April 2022",
+        "model": "WH-1000XM4"
+    },
+    {
+        "id": "4",
+        "title": "shocking customer service, decent headphones",
+        "username": "bob292",
+        "country": "United Kindgdom",
+        "review": "the buttons on left headphone should be different size or shape from each other as its hard to tell which buttons which quickly. won't buy direct from Sony again. sound is decent.",
+        "star": 2, 
+        "date": "04 April 2022",
+        "model": "WH-1000XM4"
+    },
+    {
+        "id": "5",
+        "title": "Volume up/down commands not working mostly",
+        "username": "nvisible_harlequin",
+        "country": "United Kindgdom",
+        "review": "I bought these couple of weeks ago and although I really like the features, design and especially the sound, I can't say that I am very impressed with the solution for the commands. Half of the time volume up/down is not working at all and I can't find out under which circumstances it does work.",
+        "star": 4, 
+        "date": "04 April 2022",
+        "model": "WH-1000XM4"
+    },
+    {
+        "id": "6",
+        "title": "Good",
+        "username": "Giancarlos",
+        "country": "United Kindgdom",
+        "review": "I have not had time. I have hardly used my headphones because the volume increase is little and I am a bit deaf",
+        "star": 3, 
+        "date": "02 April 2022",
+        "model": "WH-1000XM4"
+    },
+    {
+        "id": "7",
+        "title": "Terrific noise canceling",
+        "username": "Quiet",
+        "country": "USA",
+        "review": "I usually don’t write reviews but felt I should on these headphones. I was researching for months trying to find just the right ones. I started leaning towards the Sonys when the MX3 came out. Finally pulled the trigger at a BestBuy vending machine in an airport. Have loved them from day one but a flight last night proved their worth. I flew standby on a commuter jet and literally got the last seat on the plane. It was by the window in the last row, right next to where the engines were mounted. When the pilot started the engines, the sound was unbearable. The guy next to me immediately put his fingers in his ears. It was piercing. I quickly donned the Sony’s and WOW, barely any noise. I started up some music and that cured any balance of noise that may have snuck in. These headphones made the worst seat on the plane almost paradise. Although pricey, they work better than advertised . I was very thankful I bought them.",
+        "star": 5, 
+        "date": "07 December 2018",
+        "model": "WH-1000XM3"
+    },
+    {
+        "id": "8",
+        "title": "Decent",
+        "username": "Mmmgood2369",
+        "country": "USA",
+        "review": "Bought them a month ago they work very well but the problem seems to be that when in movement sound gets distored for example if moving your head to the left sound distorts from the right and sound goes on the left.",
+        "star": 3, 
+        "date": "01 December 2018",
+        "model": "WH-1000XM3"
+    },
+    {
+        "id": "9",
+        "title": "Best noise cancelling headphone",
+        "username": "Nyien",
+        "country": "Singapore",
+        "review": "Better don't wear it while commuting, you will miss your train. However, my ears a bit pain when I have it on for long hours (3-4hrs).",
+        "star": 3, 
+        "date": "05 April 2022",
+        "model": "WH-1000XM3SME"
+    }
+]

@@ -10,15 +10,15 @@ const Hero = () => {
             <Col
               sm={12}
               md={5}
-              className="d-flex flex-column bg-light p-3"
+              className="d-flex flex-column bg-dark text-white p-3"
             >
-              <h4>WH-1000XM4 </h4>
-              <h1>Smart listening technology to enhance your listening</h1>
-              <p className="my-3 fs-4 common-txt">
+              <h5>WH-1000XM4 </h5>
+              <h2>Smart listening technology to enhance your listening</h2>
+              <p>
                 The WH-1000XM4 headphones use an array of smart technologies to
                 create a seamless, hands-free listening experience.
               </p>
-              <div className="mt-3"></div>
+              
             </Col>
             <Col sm={12} md={7}></Col>
           </Row>
