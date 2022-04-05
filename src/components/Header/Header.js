@@ -29,7 +29,7 @@ const Header = () => {
                 </Nav.Link>
                 <Nav.Link
                   as={Link}
-                  to={"/reviews"}
+                  to={"/opinions"}
                   className={splitLocation[1] === "reviews" ? "active" : ""}
                 >
                   {" "}
