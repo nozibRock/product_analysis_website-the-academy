@@ -1,26 +1,25 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
-import GlobalStyle from "./globalStyles";
 
-// Pages
-import Home from './pages/Home';
-import Blogs from './pages/Blogs';
-import Reviews from './pages/Reviews';
-import Dashboard from "./pages/Dashboard";
-import About from "./pages/About";
+import Home from './components/Home/Home';
+import Reviews from "./components/Reviews/Reviews";
+import Dashboard from "./components/Dashboard/Dashboard";
+import Blogs from "./components/Blogs/Blogs";
+import About from "./components/About/About";
+import Navbar from "./components/Navbar/Navbar";
+
 function App() {
   return (
     <div>
       <BrowserRouter>
-        <GlobalStyle />
-        <Navbar/>
+        <Navbar />
         <Routes>
-          <Route path="/" exact element={<Home />} />
-          <Route path="/reviews" exact element={<Reviews />} />
-          <Route path="/dashboard" exact component={<Dashboard />} />
-          <Route path="/blogs" exact component={<Blogs />} />
-          <Route path="/about" exact component={<About />} />
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/home" element={<Home />} />
+          <Route exact path="/reviews" element={<Reviews />} />
+          <Route exact path="/dashboard" element={<Dashboard />} />
+          <Route exact path="/blogs" element={<Blogs />} />
+          <Route exact path="/about" element={<About />} />
         </Routes>
       </BrowserRouter>
     </div>

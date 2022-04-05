@@ -1,0 +1,18 @@
+.brand {
+    color: #565387;
+}
+
+.active {
+    font-weight: bold;
+    border-bottom: 1px solid #565387;
+    color: #565387 !important;
+}
+
+.user {
+    font-size: 24px;
+}
+
+.user i:hover {
+    background-color: transparent;
+    color: #565387;
+}
