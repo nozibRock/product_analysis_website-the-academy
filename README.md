@@ -1,3 +1,40 @@
+# Project Name: The Academy
+
+This project live at netlify in [This Link](https://product-analysis-rayhans-computers.netlify.app/).
+
+## Used Languages
+
+* HTML
+* CSS
+* Bootstrap
+* JavaScript
+* React
+* React-Bootstrap
+* Material UI
+* Font Awesome
+
+## Project Details
+
+This is a product review website. There are five pages in this web site, these are home page, reviews page, about us and dashboard page, blog page. 
+
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
+- React
+- React-Bootstrap
+- Material UI
+- Font Awesome
+
+
+- Developed by React js
+
+- It is an product analytical website 
+
+- This website is a community for share their opinions
+
+- If you would like to know about tech product this website can help you.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

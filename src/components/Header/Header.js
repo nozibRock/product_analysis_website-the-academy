@@ -13,7 +13,7 @@ const Header = () => {
       <Container fluid>
         <Navbar bg="dark" expand="lg" variant="dark">
           <Container>
-            <NavbarBrand as={Link} to={"/home"}>
+            <NavbarBrand as={Link} to={"/"}>
               Rayhans <span className="fw-bold brand">Computers</span>
             </NavbarBrand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -21,7 +21,7 @@ const Header = () => {
               <Nav className="mx-auto">
                 <Nav.Link
                   as={Link}
-                  to={"/home"}
+                  to={"/"}
                   className={splitLocation[1] === "home" ? "active" : ""}
                 >
                   {" "}
@@ -29,7 +29,7 @@ const Header = () => {
                 </Nav.Link>
                 <Nav.Link
                   as={Link}
-                  to={"/opinions"}
+                  to={"/reviews"}
                   className={splitLocation[1] === "reviews" ? "active" : ""}
                 >
                   {" "}

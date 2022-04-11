@@ -45,8 +45,8 @@ const Footer = () => {
                 <Link to={"/refund-policy"} className="link">
                   <i className="fas fa-angle-right"></i> Refund policy
                 </Link>
-                <Link to={"/success"} className="link">
-                  <i className="fas fa-angle-right"></i> Success
+                <Link to={"/reviews"} className="link">
+                  <i className="fas fa-angle-right"></i> Reviews
                 </Link>
                 <Link to={"/terms-of-service"} className="link">
                   <i className="fas fa-angle-right"></i> Terms and Conditions

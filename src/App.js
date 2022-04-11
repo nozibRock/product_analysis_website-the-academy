@@ -13,8 +13,8 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import Opinions from "./components/Opinions/Opinions";
 import UseReviewData from "./hooks/ReviewData";
+import Reviews from "./components/Reviews/Reviews";
 
 function App() {
   const fakeData = UseReviewData(); // Getting courses data from fakeData
@@ -24,12 +24,7 @@ function App() {
         <Header></Header>
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route exact path="/home" element={<Home />} />
-          <Route
-            exact
-            path="/opinions"
-            element={<Opinions reviews={fakeData} />}
-          />
+          <Route exact path="/reviews" element={<Reviews reviews={fakeData} />} />
           <Route exact path="/dashboard" element={<Dashboard />} />
           <Route exact path="/blogs" element={<Blogs />} />
           <Route exact path="/about" element={<About />} />

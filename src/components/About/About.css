@@ -1,0 +1,8 @@
+.aboutUs {
+    background-image: url('../../../public/assests/about-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    min-height: 65vh;
+    padding: 100px;
+}
